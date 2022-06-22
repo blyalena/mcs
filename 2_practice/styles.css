@@ -6,6 +6,8 @@
 
 body {
     font: 18px Arial, Helvetica, sans-serif;
+    background-image: "images/clouds.jpg";
+    background-size: auto;
 }
 
 .header {
