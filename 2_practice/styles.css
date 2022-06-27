@@ -1,20 +1,22 @@
 * {
     margin: 0;
+    margin-bottom: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
     font: 18px Arial, Helvetica, sans-serif;
-    background-image: "images/clouds.jpg";
-    background-size: auto;
 }
+
+
 
 .header {
     background-color: #000000;
     color: white;
     text-align: center;
     font-weight: normal;
+    letter-spacing: 0.15em;
 }
 
 h1 {
@@ -25,7 +27,7 @@ h2 {
     font-size: 1.4em;
 }
 
-body img {
+.image {
     background-color: #000000;
 }
 
@@ -39,7 +41,6 @@ img {
 }
 
 p {
-    padding: 20px 0 20px 10;
     margin-bottom: 20px;
     margin-top: 10px;
     box-sizing: border-box;
@@ -58,12 +59,48 @@ li {
 }
 
 footer {
+    float: center;
+    display: block;
     font-size: 0.7em;
     text-align: center;
     color: #ffffff;
     background-color: #000000;
-    padding: 20px 20px;
-    letter-spacing: 0.15em;
+    padding: 0;
+    letter-spacing: 0.25em;
+}
+
+.background {
+    background: url(images/footer.jpeg) 100% 50%;
+    background-size: cover;
+    background-position: bottom;
+    opacity: 1;
+}
+
+#border {
+    width: auto;
+    height: auto;
+    /* border-top: 10px solid rgba(0,255,0,.5); */
+    padding: 10px;
+    /* background: url(images/clouds.jpg) 0 0 no-repeat; */
+    background: linear-gradient(to bottom right, yellow, rgb(86, 197, 231));
+    background-size: cover;
+    background-origin: padding-box;
+}
+
+
+.footer {
+    opacity: 1;
+    background-color: black;
+    margin-bottom: 0;
+}
+
+.follow_him {
+    font-size: 1.4em;
+    opacity: 1;
+    padding: 0 0 0px 0;
+    text-align: center;
+    margin-top: 0px;
+    color: black;
 }
 
 
@@ -86,6 +123,15 @@ a:active {
 
 a:hover {
     color: #F4D03F;
+}
+
+.sm:visited,
+.sm:active {
+    color: black;
+}
+
+.sm:hover {
+    color:  #ffffff;
 }
 
 .topnav {
