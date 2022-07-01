@@ -1,0 +1,148 @@
+
+* {
+    margin: 0;
+    margin-bottom: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font: 50px Arial, Helvetica, sans-serif;
+    /* cursor: url(imgs/coursors/circle.svg), auto; */
+    cursor: none;
+}
+
+.cursor {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #1e1ae9;
+    border-radius: 50%;
+    position: absolute;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    animation: cursorAnim .5s infinite alternate;
+}
+
+h2 {
+    display: flex;
+    font-size: 1em;
+    padding-left: 70px
+}
+
+a {
+    display: flex;
+    font-size: 0.5em;
+    padding-left: 50px;
+}
+
+.nextone {
+    padding-left: 0;
+}
+
+a:link,
+a:visited {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:active {
+    color: #1e1ae9;
+}
+
+p {
+    display: block;
+    margin-left: 0;
+    padding: 10px 40px 10px 20px;
+    margin: 20px 0px;
+
+    border-top: 2px solid #1e1ae9;
+    border-left: 2px solid #1e1ae9;
+    
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+
+    background-color: #E5E000;
+}
+
+.header {
+    width: 1280px;
+    height: 200px;
+    /* position: absolute; */
+    color: #fff;
+    background-color: #E5E000; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* text-align: left; */
+    line-height: 57.5px;
+}
+
+
+.img {
+    background-image: url(imgs/img.png);
+    /* background-size: auto; */
+    width: 1280px;
+    height: 940px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    margin: 0;
+    justify-content: flex-start;
+    align-items: center;
+
+    font: 50px Arial, Helvetica, sans-serif; 
+    text-decoration: none;
+    color: #fff;
+    background-color: #E5E000;
+    border: 2px solid #1e1ae9;
+}
+
+
+.landing {
+    display: block;
+    padding: 20px 20px;
+    width: 1280px;
+    height: 500px;
+
+    padding-left: 50px;
+
+    background-color: #fff;
+    /* background-size: 1280px 940px; */
+}
+
+.header2 {
+    padding: 10px 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 200;
+    background-color: #E5E000;
+}
+
+/* .cursor {
+    border: 2px solid #1e1ae9;
+} */
+
+/* circle:hover{
+    cursor: pointer;
+    fill: yellow;
+    stroke:black;
+} */
