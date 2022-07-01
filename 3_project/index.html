@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="header-container">
+        <h2 class="header">Name Surname</h2>
+        <div class="img"></div>
+        <!-- <img class="img" src="img.png" /> -->
+    </div>
+
+    <div class="links">
+        <a href="https://www.w3schools.com/css/css_link.asp" target="_blank">ARTIST'S PAGE</a> / <a class="nextone" href="landings.html">MY LANDINGS</a>
+    </div>  
+
+    <div class="landing">
+        <h2 class="header2">Landing</h3>
+        <p>nnn</p>
+        <p>mmm</p>
+        <p>fff</p>
+    </div>
+
+    <footer class="footer">
+        <h2>gjjv</h2>
+        <p>jhbjhbj</p>
+    </footer>
+
+    <script>
+        const cursor = document.querySelector('.cursor');
+
+        document.addEventListener('mousemove', e => {
+            console.log(e);
+            cursor.setAttribute("style", "top: "+(e.pageY - 15)+"px; left: "+(e.pageX - 15)+"px;")
+        })
+    </script>
+</body>
+</html>
+
+<!-- <svg>
+    <circle cx="40" cy="40" r="24"/>
+</svg> -->
