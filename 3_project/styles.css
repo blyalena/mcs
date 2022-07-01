@@ -29,7 +29,6 @@ h2 {
 
 a {
     display: flex;
-    font-size: 0.5em;
     padding-left: 50px;
 }
 
@@ -101,10 +100,12 @@ p {
 .links {
     display: flex;
     margin: 0;
+    padding: 20px 0;
     justify-content: flex-start;
     align-items: center;
 
     font: 50px Arial, Helvetica, sans-serif; 
+    font-size: 0.5em;
     text-decoration: none;
     color: #fff;
     background-color: #E5E000;
@@ -114,7 +115,7 @@ p {
 
 .landing {
     display: block;
-    padding: 20px 20px;
+    padding: 20px 0;
     width: 1280px;
     height: 500px;
 
@@ -131,6 +132,8 @@ p {
 .footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
     width: auto;
     height: 200;
     background-color: #E5E000;
