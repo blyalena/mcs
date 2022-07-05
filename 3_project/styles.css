@@ -5,17 +5,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font: 50px Arial, Helvetica, sans-serif;
-    /* cursor: url(imgs/coursors/circle.svg), auto; */
-    cursor: none;
+    cursor: url(imgs/coursors/cursor.cur), auto;
+    /* cursor: none; */
 }
 
 .cursor {
-    width: 30px;
-    height: 30px;
-    border: 2px solid #1e1ae9;
-    border-radius: 50%;
+    /* width: 30px;
+    height: 30px; */
+    /* border: 2px solid #1e1ae9;
+    border-radius: 50%; */
     position: absolute;
     transition-duration: 200ms;
     transition-timing-function: ease-out;
@@ -91,7 +92,9 @@ p {
 .img {
     background-image: url(imgs/img.png);
     /* background-size: auto; */
-    width: 1280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
     height: 940px;
     display: flex;
     justify-content: space-between;
