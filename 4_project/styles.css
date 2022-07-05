@@ -11,20 +11,21 @@ body {
 
 h3 {
     display: flex;
-    align-self: flex-start;
+    /* align-self: flex-start; */
 }
 
 p {
-    display: flex;
+    display: flex; 
     justify-self: flex-start;
+    align-content: flex-start;
 
+    white-space: pre;
+    
     font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-    display: flex;
-    align-items: center;
 }
 
 .top {
@@ -36,28 +37,16 @@ p {
 
 }
 
-.first {
+.receipt {
     display: flex;
+    align-items: flex-start;
     justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+
     padding: 28px;
-
-    border: 5px solid #E5E000;
-    border-radius: 30px;
-}
-
-.second {
-    display: flex;
-    justify-content: flex-start;
-    padding: 28px;
-
-    border: 5px solid #E5E000;
-    border-radius: 30px;
-}
-
-.third {
-    display: flex;
-    justify-content: flex-start;
-    padding: 28px;
+    margin: 50px 25px;
 
     border: 5px solid #E5E000;
     border-radius: 30px;
@@ -66,9 +55,5 @@ p {
 .container {
     display: flex;
     justify-content: space-between;
-}
-
-.gap {
-    display: block;
-    height: 1px;
+    padding: 2px 20px;
 }
